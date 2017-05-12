@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imgPortada"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/txtCancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgPortada"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="CANCION" />
+
+    <TextView
+        android:id="@+id/txtArtista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCancion"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="ARTISTA" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/cancion" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtArtista"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="40dp"
+        android:text="REPRODUCIR"
+        android:id="@+id/play"
+        />
+
+
+</RelativeLayout>
